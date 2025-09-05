@@ -24,6 +24,7 @@ namespace githubcicd.Controller
         [HttpGet]
         public IActionResult GetProducts()
         {
+            // for list of product
             return Ok(_context.Employees.ToList());
         }
     }
