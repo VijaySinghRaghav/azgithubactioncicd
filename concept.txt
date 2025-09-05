@@ -1,0 +1,22 @@
+What is github Actions?
+What is work flow github Actions(Pipeline)? -- it has own workerprocess
+Can you show the YAML file where we applied CI/CD?
+Application
+   Github Actions (Major feature of Github)
+   Workflow (Pipeline)
+   CICD
+   Worker process(By default provided by GitHub Actions)
+   Deployed on Azure Web App/ Azure Functions
+
+
+Note : 2-3 Session to cover Key Vault
+
+
+Pre reuiset
+
+Azure Service Bus Architecture
+
+
+There are multiple ways to apply CI/CD specially for github actions.
+1. Using Github actions(Template)    // not recomnded   (Ves=rsion specific)
+2. Azure App Service

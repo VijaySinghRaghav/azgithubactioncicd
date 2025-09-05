@@ -1,0 +1,46 @@
+[ Developer Pushes Code ]
+             │
+             ▼
+[ GitHub detects Event ]
+             │
+             ▼
+[ Workflow (.yml) Triggers ]
+             │
+             ▼
+[ GitHub schedules Jobs ]
+             │
+   ┌─────────┴─────────┐
+   ▼                   ▼
+GitHub-Hosted Runner   Self-Hosted Runner
+ (GitHub Cloud VM)      (Your Machine/VM)
+             │
+             ▼
+[ Steps Executed: checkout, build, test, deploy ]
+
+
+
+What is GitHub Actions?
+
+GitHub Actions is a CI/CD (Continuous Integration / Continuous Deployment) service built into GitHub.
+It allows you to automate software development workflows (build, test, deploy, release, etc.) directly from your repository.
+
+🔹 Key Concepts
+
+1. Workflow – An automated process defined in a YAML file (.github/workflows/*.yml) in your repo.
+
+
+2. Job – A set of steps executed on the same runner. A workflow may have multiple jobs.
+
+
+3. Step – An individual task (e.g., run a command, use an action).
+
+
+4. Action – A reusable piece of code (like plugins).
+
+
+5. Runner – A server/machine where workflows run.
+
+GitHub-hosted runner → managed by GitHub.
+
+
+
