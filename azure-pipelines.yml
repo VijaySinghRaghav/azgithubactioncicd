@@ -6,8 +6,7 @@
 trigger:
 - main
 
-pool:
-  vmImage: 'VijayAppPool'
+pool:'VijayAppPool'
 
 variables:
   solution: '**/*.sln'
